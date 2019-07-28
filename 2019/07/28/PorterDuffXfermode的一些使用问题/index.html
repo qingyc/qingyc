@@ -32,7 +32,7 @@
 <meta property="og:image" content="http://qingyc.github.io/2019/07/28/PorterDuffXfermode的一些使用问题/inside_08.png">
 <meta property="og:image" content="http://qingyc.github.io/2019/07/28/PorterDuffXfermode的一些使用问题/%E8%92%99%E7%89%88%E5%BD%A2%E7%8A%B6%E5%A4%B1%E8%B4%A5_01.png">
 <meta property="og:image" content="http://qingyc.github.io/2019/07/28/PorterDuffXfermode的一些使用问题/%E8%92%99%E7%89%88%E5%BD%A2%E7%8A%B6%E5%A4%B1%E8%B4%A5_02.png">
-<meta property="og:updated_time" content="2019-07-28T05:57:03.113Z">
+<meta property="og:updated_time" content="2019-07-28T05:58:14.921Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="PorterDuffXfermode的一些使用问题">
 <meta name="twitter:description" content="PorterDuffXfermode的一些使用问题一 PorterDuff.Mode使用问题1.1  PorterDuff.Mode.CLEAR 正常效果       targetSdkVersion 28      1.2 PorterDuff.ModePorterDuff.Mode 官方效果https://developer.android.com/reference/android/grap">
@@ -336,7 +336,7 @@
 </li>
 </ul>
 <p><a href="https://stackoverflow.com/questions/51538443/xfermode-in-android-p-beta?noredirect=1#comment90044905_51538443" target="_blank" rel="noopener">图片来源</a>    </p>
-<h3 id="二-绘制2时-canvas-画布不同导致的问题"><a href="#二-绘制2时-canvas-画布不同导致的问题" class="headerlink" title="二 绘制2时 canvas 画布不同导致的问题"></a>二 绘制2时 canvas 画布不同导致的问题</h3><p>after change another canvas ,PorterDuffXfermode(PorterDuff.Mode.CLEAR) is not work</p>
+<h3 id="二-绘制时-canvas-画布不同导致的问题"><a href="#二-绘制时-canvas-画布不同导致的问题" class="headerlink" title="二 绘制时 canvas 画布不同导致的问题"></a>二 绘制时 canvas 画布不同导致的问题</h3><p>after change another canvas ,PorterDuffXfermode(PorterDuff.Mode.CLEAR) is not work</p>
 <p>创建 另一个 画布</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">//保存没有背景的截图</span><br><span class="line">screenShotBitmap = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888)</span><br><span class="line">mScreenShotCanvas = Canvas(screenShotBitmap)</span><br></pre></td></tr></table></figure>
 
